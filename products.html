@@ -1,0 +1,36 @@
+<!-- Product Page -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Products</h1>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <section id="product-list"></section>
+
+    <section id="product-detail" style="display: none">
+      <h2 id="product-name"></h2>
+      <p id="product-description"></p>
+      <p id="product-price"></p>
+      <img id="product-image" src="" alt="Product Image" />
+      <button onclick="goBack()">Go Back</button>
+    </section>
+
+    <footer>
+      <p>© 2024 Fake Api Store. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
